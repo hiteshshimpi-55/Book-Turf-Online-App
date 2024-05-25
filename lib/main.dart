@@ -1,3 +1,4 @@
+import 'package:book_turf_online/modules/home/home.dart';
 import 'package:flutter/material.dart';
 
 import 'modules/auth/screen_splash.dart';
@@ -18,6 +19,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           useMaterial3: true,
         ),
-        home: const ScreenSplash());
+        home: const Home());
   }
 }
